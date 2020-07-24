@@ -11,7 +11,8 @@ body{
     text-align: center;
     font-size: 24px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color: seashell;
+	color: seashell;
+	margin-bottom: 15px;
 }
 
 div.A{
@@ -27,7 +28,9 @@ div.A{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 700px;
-	position: relative; bottom: -100px;
+	position: relative; 
+	bottom: -100px;
+	max-width: 100vw;
 }
 
 .lavinci{
@@ -76,7 +79,7 @@ div.A{
 	 /* display: block; */
 	border: solid orange 5px;
 	width: 150px;
-	position: relative; top: -130px;
+	/* position: relative; top: -130px; */
 
  }
 
@@ -108,6 +111,7 @@ div.A{
 	}
 	.mytitle {
 		font-size: 100px;
+		margin-bottom: 50px;
 	}
   }
 
